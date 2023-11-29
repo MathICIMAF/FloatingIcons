@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp">
+        <shape android:shape="oval">
+            <solid android:color="#05000000"/>
+        </shape>
+    </item>
+    <item android:id="@+id/deleter_circle" android:left="9dp" android:top="9dp" android:right="9dp" android:bottom="9dp">
+        <shape android:shape="oval">
+            <solid android:color="#00000000"/>
+            <stroke android:width="3dp" android:color="#ffffffff"/>
+        </shape>
+    </item>
+</layer-list>

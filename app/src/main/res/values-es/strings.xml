@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Íconos Flotantes</string>
+    <string name="inicial">Íconos Flotantes necesita el permiso para mostrar encima de otras aplicaciones para empezar \10 Por favor pulsa el botón ‘Permitir acceso‘ y asegurarse de que ‘Mostrar sobre otras apps‘ está activado</string>
+    <string name="msj">Pulsa el botón ‘Permitir acceso‘ y asegurarse de que ‘Mostrar sobre otras apps‘ está activado</string>
+    <string name="permitir">Permitir acceso</string>
+    <string name="pref_max_icons">Max iconos</string>
+    <string name="pref_save">Salvar Íconos Flotantes</string>
+    <string name="pref_save_summ">Salvar las apps seleccionadas cuando se cierre la app, y que automáticamente aparezcan cuando ejecutes Íconos Flotantes</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="help">Ayuda</string>
+</resources>

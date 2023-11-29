@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.gms.ads.AdView android:layout_gravity="center" android:id="@+id/adView" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="@string/banner"/>
+    <Button android:textColor="@android:color/white" android:id="@+id/habilitar" android:background="@drawable/back_button2" android:padding="4dp" android:layout_width="150dp" android:layout_height="40dp" android:layout_margin="5dp" android:text="@string/permitir"/>
+    <ListView android:layout_gravity="center_horizontal" android:id="@+id/listView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:fadeScrollbars="false"/>
+</LinearLayout>

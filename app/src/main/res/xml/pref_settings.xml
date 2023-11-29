@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_save" android:key="pref_save" android:summary="@string/pref_save_summ" android:defaultValue="false"/>
+    <EditTextPreference android:title="Número máximo de íconos" android:key="number" android:summary="Seleccione el número máximo de íconos" android:defaultValue="10"/>
+</PreferenceScreen>
